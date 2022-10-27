@@ -1,0 +1,46 @@
+.formContainer {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+.quotesForm{
+  width: 70vw;
+  height: 100vh;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow-y: scroll;
+  z-index: 99;
+}
+
+.quotesForm form {
+  height: 100%;
+  width: 100%;
+}
+
+.quotesForm button{
+  background: none;
+  color: #33ccc5;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.quotesForm .submitForm button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: #000;
+}
+
+.experienceForm button.del-btn {
+  background-color: #c4001a;
+}
+
+.formContainer .header {
+  color: #00788a;
+}
